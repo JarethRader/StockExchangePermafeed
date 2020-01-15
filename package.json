@@ -1,0 +1,23 @@
+{
+  "name": "stockexchangepermafeed",
+  "version": "1.0.0",
+  "description": "Scrap stock data from AlphaVantage and feed it into Arweave",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "author": "Jareth Rader",
+  "license": "MIT",
+  "dependencies": {
+    "arql-ops": "^1.0.0",
+    "arweave": "^1.6.0",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "http-errors": "^1.7.3",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^2.0.2",
+    "uuid": "^3.3.3"
+  }
+}
