@@ -40,13 +40,13 @@ Note that dates are in the YYYY-MM-DD format without leading zeros
     previous_close
     change
     change_percent
-	}
+  }
 }
 ```
 Or queries can be performed with just a symbol for a stock, or a date
 ```
 {
-	stocks(symbol:"GOOG"){
+  stocks(symbol:"GOOG"){
     id
     symbol
     open
@@ -57,13 +57,13 @@ Or queries can be performed with just a symbol for a stock, or a date
     date
     previous_close
     change
-		change_percent
-	}
+    change_percent
+  }
 }
 ```
 ```
 {
-	stocks(date: "2020-1-13"){
+  stocks(date: "2020-1-13"){
     id
     symbol
     open
@@ -74,8 +74,8 @@ Or queries can be performed with just a symbol for a stock, or a date
     date
     previous_close
     change
-		change_percent
-	}
+    change_percent
+  }
 }
 ```
 # Installation
